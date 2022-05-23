@@ -9,5 +9,11 @@ import { Component } from '@angular/core';
   ]
 })
 export class AppComponent {
+  MenuData:Array<any>=[
+    {path:"",name:"Home"},
+    {path:"offers",name:"Offers"},
+    {path:"travels",name:"Travels"},
+    {path:"contact",name:"Contact"}
+  ];
   title = 'babysitting';
 }
