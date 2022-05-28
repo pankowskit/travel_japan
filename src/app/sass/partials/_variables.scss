@@ -1,12 +1,37 @@
-$prefix: "../img/";
-$img__comingsoon: $prefix+"comingsoon.jpg"; 
-$img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$prefix: "../../../assets/img/";
+$bg__coming-img: $prefix+"comingsoon.jpg"; 
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg",
+    $prefix+"contact/contact-s3.jpg";
+$bg__error-img: $prefix+"error.jpg"; 
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__offers-img: 
+    $prefix+"offers/offers-s1.jpg",
+    $prefix+"offers/offers-s2.jpg",
+    $prefix+"offers/offers-s3.jpg",
+    $prefix+"offers/offers-s4.jpg",
+    $prefix+"offers/offers-s5.jpg";
+$bg__privacy-img: $prefix+"privacy.jpg";
+$bg__travels-img: 
+    $prefix+"travels/travels-s1.jpg",
+    $prefix+"travels/travels-s2.jpg";
 $section__classes:
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "offers",
+    "privacy",
+    "travels";
 $section__images:
-    $img__comingsoon,
-    $img__error,
-    $img__privacy;
+    $bg__coming-img, 
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__offers-img,
+    $bg__privacy-img,
+    $bg__travels-img;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 
